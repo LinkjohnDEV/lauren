@@ -10,7 +10,7 @@ Disponível nos planos **PRO** e **MAX**.
 Pegue sua chave em **Configurações → Conta** no site e rode:
 
 ```bash
-curl -fsSL https://lauren.linkjohn.com/instalar.sh | bash -s -- SUA_CHAVE
+curl -fsSL https://ialauren.com/instalar.sh | bash -s -- SUA_CHAVE
 ```
 
 Funciona em Ubuntu, Debian, Rocky e Alma. Leva menos de um minuto.
@@ -23,7 +23,7 @@ sem isso, ela lê o log e diz "reinicie o nginx", em vez de reiniciar.
 Se você prefere o contrário, instale limitada — ela lê, mas não mexe:
 
 ```bash
-curl -fsSL https://lauren.linkjohn.com/instalar.sh | bash -s -- SUA_CHAVE --sem-root
+curl -fsSL https://ialauren.com/instalar.sh | bash -s -- SUA_CHAVE --sem-root
 ```
 
 Nos dois modos, **ela pede autorização antes de cada comando**. Você vê o
@@ -78,7 +78,7 @@ de erro ou um áudio explicando que fazem ela entender o problema rápido.
 Por isso existe o `/code`:
 
 1. No terminal, digite `/code`
-2. Abra **[lauren.linkjohn.com/code](https://lauren.linkjohn.com/code)** (ou o
+2. Abra **[ialauren.com/code](https://ialauren.com/code)** (ou o
    app no celular)
 3. A mesma conversa está lá — mande o print por ali
 4. A resposta aparece nos dois lugares

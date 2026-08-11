@@ -7,13 +7,13 @@ serviço caiu, subir de novo.
 Ela fala português, entende o seu ambiente e não te devolve um tutorial de
 quatro páginas quando você só quer o comando que resolve.
 
-👉 **[lauren.linkjohn.com](https://lauren.linkjohn.com)**
+👉 **[ialauren.com](https://ialauren.com)**
 
 ---
 
 ## Começando
 
-Entre em [lauren.linkjohn.com](https://lauren.linkjohn.com), crie a conta com
+Entre em [ialauren.com](https://ialauren.com), crie a conta com
 e-mail ou com o Google, e pergunte. Não precisa instalar nada para conversar.
 
 ### O que ela lê
@@ -55,7 +55,7 @@ antes de cada coisa que muda alguma coisa.
 Pegue sua chave em **Configurações → Conta** no site e rode na sua VPS:
 
 ```bash
-curl -fsSL https://lauren.linkjohn.com/instalar.sh | bash -s -- SUA_CHAVE
+curl -fsSL https://ialauren.com/instalar.sh | bash -s -- SUA_CHAVE
 ```
 
 Ubuntu, Debian, Rocky, Alma. Leva menos de um minuto.
