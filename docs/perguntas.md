@@ -23,12 +23,13 @@ sudo systemctl stop lauren-conector
 sudo systemctl disable lauren-conector
 ```
 
-E revogue a chave em **Configurações → Conta**.
+E remova a máquina na aba **Code**, nos três pontinhos ao lado do nome dela.
 
 ## Alguém vê a minha VPS?
 
-Não. Sua máquina só aparece na sua conta, e mesmo aí só depois de você digitar
-`/code` no terminal. Sem isso, ela não é listada em lugar nenhum.
+Não. Sua máquina só aparece na sua conta, e mesmo aí só depois de você pedir:
+digitando `/code` no terminal da VPS, ou clicando em "conectar este computador"
+no programa de Windows. Sem isso, ela não é listada em lugar nenhum.
 
 A conexão é o servidor que liga para nós, não o contrário: você não abre porta,
 não configura firewall e não precisa de IP fixo.
@@ -36,8 +37,8 @@ não configura firewall e não precisa de IP fixo.
 ## O que acontece com o que eu mando?
 
 Suas conversas ficam na sua conta, e você apaga quando quiser — uma conversa ou
-todas, em **Configurações → Conta**. Print e arquivo enviados ficam presos à
-mensagem e somem junto com ela.
+todas, em **Configurações → Privacidade**. Print e arquivo enviados ficam
+presos à mensagem e somem junto com ela.
 
 ## Ela funciona em qual sistema?
 

@@ -7,11 +7,15 @@ Disponível nos planos **PRO** e **MAX**.
 
 ## Instalar
 
-Pegue sua chave em **Configurações → Conta** no site e rode:
+Abra a aba **Code** no site: o comando aparece pronto, com um convite dentro
+dele. Rode no terminal da VPS, como root:
 
 ```bash
-curl -fsSL https://ialauren.com/instalar.sh | bash -s -- SUA_CHAVE
+curl -fsSL https://ialauren.com/instalar.sh | sudo bash -s SEU_CONVITE
 ```
+
+O convite vale 30 minutos e serve uma vez só. Se vencer, recarregue a página
+para pegar outro.
 
 Funciona em Ubuntu, Debian, Rocky e Alma. Leva menos de um minuto.
 
@@ -93,7 +97,7 @@ sudo systemctl stop lauren-conector
 sudo systemctl disable lauren-conector
 ```
 
-E revogue a chave em **Configurações → Conta** no site.
+E remova a máquina na aba **Code** do site, nos três pontinhos ao lado do nome dela.
 
 ## Quando não funciona
 
