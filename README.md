@@ -1,13 +1,15 @@
 # Lauren
 
-**Uma IA que já vem com a sua VPS.** Você conversa com ela no navegador, no
-celular ou no computador — e instala ela no servidor para trabalhar de verdade:
-ler log, achar por que o serviço caiu, subir de novo.
+**A IA que resolve, em vez de explicar.**
 
-Ela fala português, entende o seu ambiente e não te devolve um tutorial de
-quatro páginas quando você só quer o comando que resolve.
+Seu site caiu às duas da manhã. Você não quer ler sobre `journalctl` — quer o
+serviço no ar. A Lauren entra no servidor, lê o log, descobre o que quebrou e
+sobe de novo, pedindo sua autorização antes de cada comando.
 
-👉 **[ialauren.com](https://ialauren.com)**
+Fala português, entende o seu ambiente e trabalha onde você trabalha: no
+navegador, no celular, no seu Windows e dentro do VS Code.
+
+Começa de graça, sem cartão. 👉 **[ialauren.com](https://ialauren.com)**
 
 ---
 
@@ -23,8 +25,9 @@ e-mail ou com o Google, e pergunte. Não precisa instalar nada para conversar.
 | **Navegador** | funciona sem instalar nada, no computador e no celular |
 | **iPhone e Android** | aplicativo próprio, com câmera, anexo e ditado |
 | **Windows** | programa com janela própria, e a Lauren pode cuidar do seu PC |
+| **VS Code** | extensão que trabalha no projeto aberto, com os arquivos à mão |
 
-A conversa é a mesma nos três: o que você começa no computador continua no
+A conversa é a mesma nos quatro: o que você começa no computador continua no
 celular. 👉 **[Baixar](https://ialauren.com/app)**
 
 ### O que ela lê
@@ -49,7 +52,11 @@ continue perguntando sobre ela.
 ### Ditado
 
 Segure o microfone na caixa de escrever e fale. O texto aparece escrito, você
-revisa e manda. No navegador isso não gasta nada da sua cota.
+revisa e manda.
+
+No Chrome e no Edge quem transcreve é o próprio navegador: não sai nada daqui e
+não gasta um pingo da sua cota. Nos outros e no aplicativo, o áudio vem para
+nós — e aí consome um pouquinho, bem menos que uma pergunta.
 
 ---
 
@@ -119,6 +126,14 @@ sua porcentagem sobe e o que fazer quando ela chega perto de 100%.
 
 📖 **[Perguntas frequentes →](docs/perguntas.md)** — segurança, root, o que ela
 faz com os seus dados, o que fazer quando algo não funciona.
+
+---
+
+## Está fora do ar?
+
+**[ialauren.com/status](https://ialauren.com/status)** mostra o estado de cada
+parte agora e o histórico dos últimos dias. Se o problema for nosso, está lá —
+e você não perde tempo procurando erro do seu lado.
 
 ---
 
