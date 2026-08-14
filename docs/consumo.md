@@ -27,13 +27,15 @@ Nem toda pergunta custa igual:
   página de PDF conta como uma imagem.
 - **Modo code** — o mais caro de todos. Ela lê arquivos, roda comandos e lê a
   saída; uma tarefa é dezenas de idas e vindas.
-- **Modelos mais fortes** (Lauren 3 e acima) — consomem vários múltiplos do
-  modelo do dia a dia.
+- **Modelos mais fortes** (Lauren 5 e acima) — consomem vários múltiplos do
+  modelo do dia a dia. A Lauren 5 gasta a cota bem mais rápido, e a Lauren 6
+  gasta muito mais que ela.
 
 ## Dando conta com menos
 
-- Deixe na **Lauren 2** para o dia a dia. Suba de modelo quando a resposta não
-  estiver dando conta, não por padrão.
+- Deixe na **Lauren 4** para o dia a dia — é a padrão, e medindo de verdade ela
+  é a que resolve gastando menos. Suba de modelo quando a resposta não estiver
+  dando conta, não por padrão.
 - Recorte o print. Uma tela 4K inteira custa muito mais que o pedaço com o erro.
 - Comece conversa nova quando mudar de assunto: a conversa inteira é reenviada
   a cada pergunta, então uma conversa de 50 mensagens custa caro por mensagem.
