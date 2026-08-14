@@ -23,7 +23,7 @@ Lauren   O nginx caiu às 02:14 por falta de espaço: o log do PHP encheu
 Ela lê, decide e executa — **pedindo autorização antes de cada comando que muda
 alguma coisa.** Você vê exatamente o que ela vai fazer antes de ela fazer.
 
-**[Começar de graça, sem cartão →](https://ialauren.com)**
+**[Conhecer a Lauren →](https://ialauren.com)**
 
 ---
 
@@ -52,13 +52,14 @@ loja.
 
 ## Planos
 
-| | Grátis | PRO | MAX | ULTRA |
-|---|:---:|:---:|:---:|:---:|
-| Conversa, leitura de arquivo e imagem | ✅ | ✅ | ✅ | ✅ |
-| **Lauren dentro da sua VPS e do seu PC** | — | ✅ | ✅ | ✅ |
-| Modelos mais fortes | — | ✅ | ✅ | ✅ |
-| Quanto dá para usar | para experimentar | trabalhar todo dia | quase o triplo do PRO | o dobro do MAX |
-| | | **R$ 79,90** | **R$ 199,90** | **R$ 399,90** |
+| | PRO | MAX | ULTRA |
+|---|:---:|:---:|:---:|
+| Conversa, leitura de arquivo e aplicativos | ✅ | ✅ | ✅ |
+| **Lauren dentro da sua VPS e do seu PC** | ✅ | ✅ | ✅ |
+| Imagens por mês | 50 | 150 | 300 |
+| **Lauren 6**, a mais capaz de todas | — | ✅ | ✅ |
+| Quanto dá para usar | trabalhar todo dia | 3× o PRO | o dobro do MAX |
+| | **R$ 79,90** | **R$ 199,90** | **R$ 399,90** |
 
 Por mês, no PIX. **Sem fidelidade e sem renovação automática** — quando acabar,
 acabou, e você renova se quiser.
