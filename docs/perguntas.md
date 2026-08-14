@@ -59,6 +59,34 @@ Fale com o suporte pelo site. A recuperação automática por e-mail está a cam
 
 Pode, com a mesma chave. Cada máquina aparece com o nome dela.
 
+## Que arquivos eu posso mandar para ela?
+
+Arraste na conversa ou toque no clipe:
+
+| Formato | O que ela faz |
+|---|---|
+| **Print e foto** (`png`, `jpg`, `webp`) | ela *vê* a tela de erro, o gráfico, o painel |
+| **PDF** | lê o texto, a tabela e o layout — inclusive PDF escaneado |
+| **Excel** (`.xlsx`) e **CSV** | lê as células, soma coluna, acha a linha |
+| **Word** (`.docx`) e **PowerPoint** (`.pptx`) | lê o conteúdo |
+| **Áudio** | escuta você explicando o problema |
+| `.txt`, `.log`, `.json`, `.yml` | lê inteiro |
+
+O arquivo continua valendo nas perguntas seguintes: mande a planilha uma vez e
+continue perguntando sobre ela.
+
+Word e Excel **antigos** (`.doc`, `.xls`, do Office 95) não abrem. Salve como
+`.docx`, `.xlsx` ou PDF.
+
+## Como funciona o ditado?
+
+Segure o microfone na caixa de escrever e fale. O texto aparece escrito, você
+revisa e manda.
+
+No Chrome e no Edge quem transcreve é o próprio navegador: não sai nada daqui e
+não gasta um pingo da sua cota. Nos outros navegadores e no aplicativo, o áudio
+vem para nós — e aí consome um pouquinho, bem menos que uma pergunta.
+
 ## Não achei minha pergunta
 
 Abra uma [issue](https://github.com/LinkjohnDEV/lauren/issues) ou fale com o
