@@ -27,8 +27,8 @@ Nem toda pergunta custa igual:
   página de PDF conta como uma imagem.
 - **Modo code** — o mais caro de todos. Ela lê arquivos, roda comandos e lê a
   saída; uma tarefa é dezenas de idas e vindas.
-- **Modelos mais fortes** (Lauren 5 e acima) — consomem vários múltiplos do
-  modelo do dia a dia. A Lauren 5 gasta a cota bem mais rápido, e a Lauren 6
+- **Modelos mais fortes** (Velix 5 e acima) — consomem vários múltiplos do
+  modelo do dia a dia. A Velix 5 gasta a cota bem mais rápido, e a Lauren 6
   gasta muito mais que ela.
 
 ## Dando conta com menos
