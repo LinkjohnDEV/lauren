@@ -3,8 +3,6 @@
 Aqui ela para de dar conselho e passa a fazer. Ela lê os arquivos do servidor,
 roda comando, edita configuração, reinicia serviço — e mostra cada passo.
 
-Disponível nos planos **PRO** e **MAX**.
-
 ## Instalar
 
 Abra a aba **Code** no site: o comando aparece pronto, com um convite dentro
@@ -48,46 +46,85 @@ Escreva o que precisa, em português:
 › por que o mysql não sobe depois do reboot?
 ```
 
+### Abra ela dentro do projeto
+
+O `cd` que você dá antes vale: a Lauren trabalha na pasta em que foi aberta.
+
+```bash
+cd /var/www/meusite
+lauren
+```
+
+Ela lê e mexe nessa pasta sem pedir nada. Para tocar em coisa de fora dela —
+um `/etc/nginx/`, um serviço do sistema — ela pede autorização.
+
+**E cada pasta guarda as conversas dela.** O `/resume` aberto em
+`/var/www/meusite` lista o que você conversou ali, não a bagunça das outras.
+Trocar de projeto é trocar de pasta.
+
 ### Autorizando
 
 Quando ela vai rodar algo, aparece assim:
 
 ```
-  A Lauren quer rodar
-  systemctl restart nginx
+  ⚠  Ela quer executar:
+     systemctl restart nginx
 
-  [s] autorizar   [a] sempre   [n] não
+     [Enter] deixar   [n] não deixar
 ```
 
-- **s** — autoriza esse comando, uma vez
-- **a** — autoriza esse tipo de comando pelo resto da conversa
-- **n** — nega; ela tenta outro caminho
+Enter deixa passar; **n** nega, e ela tenta outro caminho.
+
+Ler arquivo e listar pasta ela faz direto, sem perguntar — o que para para
+pedir é o que muda alguma coisa.
 
 ### Comandos
 
+Digite `/` e a lista aparece na hora, filtrando conforme você escreve.
+
 | Comando | O que faz |
 |---|---|
-| `/code` | espelha esta conversa no site — é assim que você manda print e áudio |
-| `/fechar` | para de espelhar |
-| `/resume` | lista as conversas anteriores e volta para uma delas |
-| `/parar` | interrompe o que ela está fazendo agora |
-| `/ajuda` | mostra os comandos |
-| `/sair` | sai |
+| `/rc` | liga o controle remoto: esta conversa vai para o site e o celular |
+| `/fechar` | desliga o remoto e volta a ser só deste terminal |
+| `/resume` | lista as conversas desta pasta e entra numa |
+| `/renomear` | dá outro nome para esta conversa |
+| `/parar` | interrompe uma rodada que travou |
+| `/ajuda` | mostra a lista |
+| `/sair` | encerra |
+
+`/remote control` faz o mesmo que `/rc`, para quem prefere escrever por extenso.
+
+### Voltar direto numa conversa
+
+Se você já sabe qual quer, dá para abrir nela sem passar pelo `/resume`:
+
+```bash
+lauren --sessao ses_abc123
+```
+
+E dá para já chegar perguntando:
+
+```bash
+lauren --sessao ses_abc123 "por que o nginx caiu de novo?"
+```
+
+Serve também por variável de ambiente, para quem chama a Lauren de dentro de
+um script: `LAUREN_SESSAO=ses_abc123 lauren`.
 
 ## Print e áudio: o que o terminal não faz
 
 Terminal não recebe imagem. Mas é justamente o print do painel, a foto da tela
 de erro ou um áudio explicando que fazem ela entender o problema rápido.
 
-Por isso existe o `/code`:
+Por isso existe o `/rc`:
 
-1. No terminal, digite `/code`
+1. No terminal, digite `/rc`
 2. Abra **[ialauren.com/code](https://ialauren.com/code)** (ou o
    app no celular)
 3. A mesma conversa está lá — mande o print por ali
 4. A resposta aparece nos dois lugares
 
-Quando terminar, `/fechar`. Enquanto você não pedir `/code`, sua máquina não
+Quando terminar, `/fechar`. Enquanto você não pedir `/rc`, sua máquina não
 aparece em lugar nenhum.
 
 ## Tirar do ar
@@ -111,8 +148,11 @@ sudo journalctl -u lauren-conector -n 50
 ```
 
 **A conversa não aparece no site**
-Você precisa digitar `/code` no terminal primeiro — é assim de propósito: sua
+Você precisa digitar `/rc` no terminal primeiro — é assim de propósito: sua
 máquina não fica exposta sem você mandar.
+
+**O `/resume` não acha uma conversa antiga**
+Ela está na pasta em que você a começou. Dê `cd` para lá e chame de novo.
 
 **"Sua cota acabou"**
 Veja [como funciona o consumo](consumo.md).

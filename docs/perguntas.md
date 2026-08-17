@@ -28,7 +28,7 @@ E remova a máquina na aba **Code**, nos três pontinhos ao lado do nome dela.
 ## Alguém vê a minha VPS?
 
 Não. Sua máquina só aparece na sua conta, e mesmo aí só depois de você pedir:
-digitando `/code` no terminal da VPS, ou clicando em "conectar este computador"
+digitando `/rc` no terminal da VPS, ou clicando em "conectar este computador"
 no programa de Windows. Sem isso, ela não é listada em lugar nenhum.
 
 A conexão é o servidor que liga para nós, não o contrário: você não abre porta,
@@ -57,7 +57,16 @@ Fale com o suporte pelo site. A recuperação automática por e-mail está a cam
 
 ## Posso usar em mais de uma VPS?
 
-Pode, com a mesma chave. Cada máquina aparece com o nome dela.
+Pode, com a mesma chave, quantas quiser. Cada máquina aparece com o nome dela.
+
+## Ela trabalha em qual pasta?
+
+Na pasta em que você abriu ela. Dê `cd` para o seu projeto antes de chamar
+`lauren` e é ali que ela lê e mexe, sem ficar pedindo autorização a cada
+arquivo. Fora dessa pasta, ela pede.
+
+**Cada pasta guarda as conversas dela**: o `/resume` mostra o que você
+conversou naquele projeto, não a mistura de todos.
 
 ## Que arquivos eu posso mandar para ela?
 
@@ -80,8 +89,10 @@ Word e Excel **antigos** (`.doc`, `.xls`, do Office 95) não abrem. Salve como
 
 ## Como funciona o ditado?
 
-Segure o microfone na caixa de escrever e fale. O texto aparece escrito, você
-revisa e manda.
+Clique no microfone na caixa de escrever e fale. Não precisa segurar: um clique
+começa, outro clique para. O texto aparece escrito, você revisa e manda.
+
+Se tiver mais de um microfone no computador, a setinha ao lado escolhe qual.
 
 No Chrome e no Edge quem transcreve é o próprio navegador: não sai nada daqui e
 não gasta um pingo da sua cota. Nos outros navegadores e no aplicativo, o áudio

@@ -31,6 +31,15 @@ Nem toda pergunta custa igual:
   modelo do dia a dia. A Velix 5 gasta a cota bem mais rápido, e a Lauren 6
   gasta muito mais que ela.
 
+Os quatro, do mais leve para o mais forte:
+
+| Modelo | Para que é |
+|---|---|
+| **Nébula 3** | mais rápida para respostas curtas |
+| **Lauren 4** | mais eficiente para tarefas do dia a dia — é a padrão |
+| **Velix 5** | matemática e programação avançada |
+| **Lauren 6** | a solução definitiva para problemas críticos |
+
 ## Dando conta com menos
 
 - Deixe na **Lauren 4** para o dia a dia — é a padrão, e medindo de verdade ela

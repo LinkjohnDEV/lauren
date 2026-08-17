@@ -56,7 +56,7 @@ loja.
 |---|:---:|:---:|:---:|
 | Conversa, leitura de arquivo e aplicativos | ✅ | ✅ | ✅ |
 | **Lauren dentro da sua VPS e do seu PC** | ✅ | ✅ | ✅ |
-| Imagens por mês | 50 | 150 | 300 |
+| Imagens por mês | 20 | 50 | 100 |
 | **Lauren 6**, a mais capaz de todas | — | ✅ | ✅ |
 | Quanto dá para usar | trabalhar todo dia | 3× o PRO | o dobro do MAX |
 | | **R$ 79,90** | **R$ 199,90** | **R$ 399,90** |
