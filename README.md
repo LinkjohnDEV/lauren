@@ -1,95 +1,73 @@
+<p align="center">
+  <a href="https://ialauren.com"><img src="https://ialauren.com/marca/social.png" alt="Lauren" width="840"></a>
+</p>
+
 # Lauren
 
-**A IA que entra no seu servidor e conserta.**
+**Sua IA para o dia inteiro.** Converse em português, mande o que precisa ser
+entendido e peça um resultado. A Lauren ajuda com texto, imagens, documentos,
+planilhas, áudio e código. Quando o trabalho exige agir no seu computador ou
+servidor, ela também pode ler arquivos, editar o projeto e executar comandos.
 
-São duas da manhã e o site caiu. Você não quer ler sobre `journalctl` — quer o
-serviço no ar.
+[**Começar de graça**](https://ialauren.com/registrar) ·
+[Como usar](https://ialauren.com/docs) ·
+[Baixar](https://ialauren.com/app) ·
+[Planos](https://ialauren.com/planos)
 
-```
-você     meu site tá fora do ar
+## O que você pode pedir
 
-Lauren   Vou olhar agora. Posso rodar isto na sua VPS?
+> “Leia esta planilha de gastos e me mostre onde posso economizar.”
 
-         ›  systemctl status nginx
+> “Resuma este contrato e destaque os pontos que preciso conferir.”
 
-         [ Autorizar ]   [ Agora não ]
+> “Crie uma imagem para divulgar meu negócio.”
 
-você     ✓ autorizado
+> “Entre no projeto, descubra por que o serviço não sobe e corrija o problema.”
 
-Lauren   O nginx caiu às 02:14 por falta de espaço: o log do PHP encheu
-         38 GB dos 40. Limpo o log e subo o serviço?
-```
+Você pode escrever, anexar um arquivo ou falar. A Lauren acompanha o assunto da
+conversa; no Code, cada conversa trabalha com o contexto da máquina e da pasta
+escolhidas.
 
-Ela lê, decide e executa — **pedindo autorização antes de cada comando que muda
-alguma coisa.** Você vê exatamente o que ela vai fazer antes de ela fazer.
+## Conversa e Code
 
-**[Conhecer a Lauren →](https://ialauren.com)**
+| | Para usar quando | O que acontece |
+|---|---|---|
+| **Conversa** | Você quer entender, escrever, analisar ou criar | Abra no navegador ou celular e envie texto, foto, PDF, planilha ou áudio. |
+| **Code** | Você quer trabalhar em um projeto ou resolver algo na máquina | Conecte seu Windows, VS Code ou VPS. A Lauren acompanha os arquivos e mostra as atividades da tarefa. |
 
----
+No Code, você escolhe entre os modos **Manual** e **Automático**. As ações seguem
+as permissões e os limites configurados para a sua máquina. Conversas de
+projetos diferentes mantêm seus próprios contextos.
 
-## O que ela faz
+## Onde usar
 
-- **Resolve no servidor.** Entra na sua VPS, lê o log, corrige a configuração,
-  reinicia o serviço. E no seu Windows também, com um clique.
-- **Enxerga o que você manda.** Print da tela de erro, PDF, planilha, áudio.
-  Arraste na conversa e pergunte.
-- **Desenha.** Peça um cartaz, um logo, um banner para a sua promoção, e ela
-  entrega a imagem pronta na conversa.
-- **Fala português.** De verdade — não é tradução de manual gringo.
+- **Navegador:** [ialauren.com](https://ialauren.com), sem instalar nada.
+- **Celular:** abra no navegador e adicione à tela inicial para usar como app.
+- **Windows:** baixe o aplicativo em [ialauren.com/app](https://ialauren.com/app).
+- **VS Code:** use a extensão para trabalhar no projeto aberto no editor.
+- **VPS ou Linux:** conecte a máquina pela aba Code e chame `lauren` no terminal.
 
-## Onde ela trabalha
+## Comece em poucos passos
 
-No navegador, no iPhone, no Android, no Windows e dentro do VS Code. **A
-conversa é a mesma nos cinco:** o que você começa no computador continua no
-celular, com o mesmo histórico.
+1. [Crie sua conta](https://ialauren.com/registrar) e abra uma conversa.
+2. Peça o que precisa. Se o assunto envolver um arquivo, anexe-o na própria
+   conversa.
+3. Para trabalhar no seu computador ou servidor, abra **Code** e siga o comando
+   de conexão mostrado para a sua máquina. O guia completo está em
+   [ialauren.com/docs](https://ialauren.com/docs).
 
-No celular ela instala na tela inicial e abre como aplicativo, sem passar pela
-loja.
+Você pode começar gratuitamente. Recursos, limites e valores atualizados ficam
+na [página de planos](https://ialauren.com/planos).
 
-**[Baixar →](https://ialauren.com/app)**
+## Ajuda e documentação
 
----
+A documentação oficial está em **[ialauren.com/docs](https://ialauren.com/docs)**:
+primeiros passos, arquivos aceitos, instalação, comandos, modelos, uso e solução
+de problemas. Ela é mantida junto ao produto para não deixar instruções antigas
+neste repositório.
 
-## Planos
-
-| | PRO | MAX | ULTRA |
-|---|:---:|:---:|:---:|
-| Conversa, leitura de arquivo e aplicativos | ✅ | ✅ | ✅ |
-| **Lauren dentro da sua VPS e do seu PC** | ✅ | ✅ | ✅ |
-| Imagens por mês | 20 | 50 | 100 |
-| **Lauren 6**, a mais capaz de todas | — | ✅ | ✅ |
-| Quanto dá para usar | trabalhar todo dia | 3× o PRO | o dobro do MAX |
-| | **R$ 79,90** | **R$ 199,90** | **R$ 399,90** |
-
-Por mês, no PIX. **Sem fidelidade e sem renovação automática** — quando acabar,
-acabou, e você renova se quiser.
-
-📖 **[Como funciona o consumo →](docs/consumo.md)**
-
----
-
-## Instalar na VPS
-
-Abra a aba **Code** no site, copie o comando com o seu convite e rode **dentro
-do servidor**, como root:
-
-```bash
-curl -fsSL https://ialauren.com/instalar.sh | sudo bash -s SEU_CONVITE
-```
-
-Ubuntu, Debian, Rocky e Alma. Leva menos de um minuto. Depois é só chamar:
-
-```bash
-lauren
-```
-
-📖 **[Manual do terminal →](docs/terminal.md)** · 📖 **[Perguntas frequentes →](docs/perguntas.md)**
-
----
-
-## Precisa de ajuda?
-
-Abra uma [issue](https://github.com/LinkjohnDEV/lauren/issues) ou fale pelo
-próprio site.
+Encontrou um erro neste README? [Abra uma issue](https://github.com/LinkjohnDEV/lauren/issues).
+Para ajuda com sua conta ou com o produto, use o
+[contato oficial](https://ialauren.com/contato).
 
 <sub>Lauren é um produto <a href="https://linkjohn.com">LinkJohn</a>.</sub>
