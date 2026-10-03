@@ -36,13 +36,13 @@ Os quatro, do mais leve para o mais forte:
 | Modelo | Para que é |
 |---|---|
 | **Nébula 3** | mais rápida para respostas curtas |
-| **Lauren 4** | mais eficiente para tarefas do dia a dia — é a padrão |
+| **Biax 4** | mais eficiente para tarefas do dia a dia — é a padrão |
 | **Velix 5** | matemática e programação avançada |
 | **Lauren 6** | a solução definitiva para problemas críticos |
 
 ## Dando conta com menos
 
-- Deixe na **Lauren 4** para o dia a dia — é a padrão, e medindo de verdade ela
+- Deixe na **Biax 4** para o dia a dia — é a padrão, e medindo de verdade ela
   é a que resolve gastando menos. Suba de modelo quando a resposta não estiver
   dando conta, não por padrão.
 - Recorte o print. Uma tela 4K inteira custa muito mais que o pedaço com o erro.

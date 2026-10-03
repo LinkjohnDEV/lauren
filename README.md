@@ -87,13 +87,9 @@ lauren
 
 ---
 
-## Fora do ar?
+## Precisa de ajuda?
 
-**[ialauren.com/status](https://ialauren.com/status)** mostra o estado de cada
-parte agora, e o histórico. Se o problema for nosso, está lá — e você não perde
-tempo procurando erro do seu lado.
-
-Precisa de gente? Abra uma
-[issue](https://github.com/LinkjohnDEV/lauren/issues) ou fale pelo próprio site.
+Abra uma [issue](https://github.com/LinkjohnDEV/lauren/issues) ou fale pelo
+próprio site.
 
 <sub>Lauren é um produto <a href="https://linkjohn.com">LinkJohn</a>.</sub>
